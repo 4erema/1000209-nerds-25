@@ -5,52 +5,60 @@
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
-<header>
-  <a><img src="logo.jpg">
+<header class="main-header">
+  <a class="main-header-logo" href="#">
+    <img src="logo.jpg" width="100" height="100" alt="Логотип Nerds">
   </a>
-<nav>
-  <ul>
-   <li><a>Студия</a></li>
-  <li><a>Клиенты</a></li>
-  <li><a>Магазин</a></li>
-    <li><a>Контакты</a></li>
-    <div class="basket">
-      <img src="">
-      <a>Корзина</a>
-    </div>
-  </ul>
+  <nav class="main-navigation">
+    <ul class="site-navigation">
+      <li><a href="#">Студия</a></li>
+      <li><a href="#">Клиенты</a></li>
+      <li><a href="catalog.html">Магазин</a></li>
+      <li><a href="#">Контакты</a></li>
+    </ul>
+   <div class="basket">
+     <a href="#">Корзина</a>
+   </div>
 </nav>
 </header>
-<main>
+<main class="container">
+  <h1 class="visually-hidden">Студия веб-дизайна "Нердс"!</h1>
 <section class="service">
-  <ul>
-    <li>
-      <img>
-      <h2>ВЕБ-САЙТЫ</h2>
+  <h2 class="visually-hidden">Услуги</h2>
+  <ul class="service-list">
+    <li class="service-item">
+      <img src="img.jpg" alt="Картинка ноутбука" width="100" height="100">
+      <h3>ВЕБ-САЙТЫ</h3>
       <p>мир никогда не будет прежним после того как увидит ваш сайт</p>
-      <a>заказать</a>
+      <a class="button1" href="#">заказать</a>
     </li>
-    <li>
-      <img>
-      <h2>ПРИДЛОЖЕНИЯ</h2>
+    <li class="service-item">
+      <img src="img.jpg" alt="картинка сотовых" width="100" height="100">
+      <h3>ПРИЛОЖЕНИЯ</h3>
       <P>Покорите ТОП-10 приложений в AppStore Google Play</P>
-      <a>заказать</a>
+      <a class="button2" href="#">заказать</a>
     </li>
-    <li>
-      <img>
-      <h2>ПРЕЗЕНТАЦИИ</h2>
+    <li class="service-item">
+      <img src="img.jpg" alt="каринка презентации" width="100" height="100">
+      <h3>ПРЕЗЕНТАЦИИ</h3>
       <p>Вы даже не подозреваете, на сколько вы изумительны!</p>
-      <a>заказать</a>
+      <a class="button3" href="#">заказать</a>
     </li>
   </ul>
-</sectionи>
+</section>
 </main>
-  <footer>
-    <a>vkontakte</a>
-    <a>facebook</a>
-    <a>instagram</a>
-    <p class="sale friends">Давайте дружить, это выгодно!</p>
-    <p class="sale">Скидка 10% для друзей из социальных сетей</p>
+  <footer class="main-footer">
+    <div class="footer-social">
+      <ul>
+        <li><a class="social-button" href="#">vkontakte</a></li>
+        <li><a class="social-button" href="#">facebook</a></li>
+        <li><a class="social-button" href="#">instagram</a></li>
+      </ul>
+    </div>
+    <div class="footer-conclusion">
+      <p class="conclusion-friends">Давайте дружить, это выгодно!</p>
+      <p class="conclusion-sale">Скидка 10% для друзей из социальных сетей</p>
+    </div>
   </footer>
   </body>
 </html>
