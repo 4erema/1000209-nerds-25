@@ -24,24 +24,26 @@
 <main class="container">
 <h1 class="page-title">Магазин готовых шаблонов</h1>
 <section class="filter">
-  <h2 class="visually-hidden">Фильтры</h2>
-  <h3 class="grid-title">Сетка:</h3>
-  <ul class="filter-grid">
-    <li>Адаптивная</li>
-    <li>Фиксированая</li>
-    <li>Резиновая</li>
-  </ul>
-  <h3 class="specificity-filter">Особенности</h3>
-  <ul class="filter-specificity">
-    <li>Слайдер</li>
-    <li>Блок преимуществ</li>
-    <li>Новости</li>
-    <li>Галерея</li>
-    <li>Корзина</li>
-  </ul>
+  <form class="filter-form" method="get" action="">
+    <h2 class="visually-hidden">Фильтры</h2>
+    <fieldset class="filter-grid">
+      <h3 class="grid-title">Сетка:</h3>
+      <label><input type="radio" name="grid" value="Адаптивная" checked>Адаптивная</label>
+      <label><input type="radio" name="grid" value="Фиксированная">Фиксированая</label>
+      <label><input type="radio" name="grid" value="Резиновая">Резиновая</label>
+    </fieldset>
+    <fieldset class="filter-specificity">
+      <h3 class="specificity-filter">Особенности:</h3>
+      <label><input type="checkbox" name="slider" checked>Слайдер</label>
+      <label><input type="checkbox" name="advantage">Блок преимуществ</label>
+      <label><input type="checkbox" name="news" checked>Новости</label>
+      <label><input type="checkbox" name="gallery">Галерея</label>
+      <label><input type="checkbox" name="basket">Корзина</label>
+    </fieldset>
   <p>
-    <a class="button" href="#">заказать</a>
+    <button class="filter-button" type="submit">показать</buttonc>
   </p>
+  </form>
 </section>
 <section class="catalog">
   <div class="filter-view">
@@ -75,5 +77,36 @@
     <p class="conclusion-sale">Скидка 10% для друзей из социальных сетей</p>
   </div>
 </footer>
+<section class="popup-feedback">
+  <h2>Напишите нам</h2>
+  <form class="feedback-form" method="post" action="">
+    <div class="feedback-field-half">
+      <label for="feedback-name">
+        Ваше имя:
+      </label>
+      <input type="text" name="name" id="feedback-name" placeholder="Имя Фамилия" required>
+    </div>
+    <div class="feedback-firld-half">
+      <label for="feedback-name">
+        Ваш e-mail:
+      </label>
+      <input type="email" name="email" id="feedback-email" placeholder="email@example.com">
+    </div>
+    <p>
+      <label for="feedback-text">
+        Текст письма:
+      </label>
+      <textarea name="text" id="feedback-text" rows="5">
+          В свободной форме
+        </textarea>
+    </p>
+    <button class="feedback-submite" type="submit">
+      Отправить
+    </button>
+    <button class="feedback-close" type="button">
+      Закрыть
+    </button>
+  </form>
+</section>
 </body>
 </html>

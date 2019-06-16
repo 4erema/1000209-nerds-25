@@ -17,7 +17,7 @@
       <li><a href="#">Контакты</a></li>
     </ul>
    <div class="basket">
-      <a href="#">Корзина</a>
+      <a href="basket.html">Корзина</a>
    </div>
 </nav>
 </header>
@@ -60,5 +60,36 @@
       <p class="conclusion-sale">Скидка 10% для друзей из социальных сетей</p>
     </div>
   </footer>
+  <section class="popup-feedback">
+    <h2>Напишите нам</h2>
+    <form class="feedback-form" method="post" action="">
+      <div class="feedback-field-half">
+        <label for="feedback-name">
+          Ваше имя:
+        </label>
+        <input type="text" name="name" id="feedback-name" placeholder="Имя Фамилия" required>
+      </div>
+      <div class="feedback-firld-half">
+        <label for="feedback-name">
+          Ваш e-mail:
+        </label>
+        <input type="email" name="email" id="feedback-email" placeholder="email@example.com">
+      </div>
+      <p>
+        <label for="feedback-text">
+          Текст письма:
+        </label>
+        <textarea name="text" id="feedback-text" rows="5">
+          В свободной форме
+        </textarea>
+      </p>
+      <button class="feedback-submite" type="submit">
+        Отправить
+      </button>
+      <button class="feedback-close" type="button">
+        Закрыть
+      </button>
+    </form>
+  </section>
   </body>
 </html>
