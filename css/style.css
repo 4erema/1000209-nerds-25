@@ -1,0 +1,131 @@
+body{
+  padding: 0;
+  margin: 0;
+
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  color: rgb(0,0,0);
+  background-color: rgb(255,255,255);
+}
+a{
+  text-decoration: none;
+}
+.main-header{
+  color: rgb(0,0,0);
+  background-color: rgb(238,238,238);
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.site-navigation{
+  list-style: none;
+}
+.main-navigation a{
+  color: rgb(0,0,0);
+}
+.main-navigation a:hover,
+.main-navigation a:focus{
+  color: rgb(251,86,90);
+}
+.site-navigation-current a{
+  text-decoration: underline;
+  text-decoration-color: rgb(251,86,90);
+}
+.service-list{
+  list-style: none;
+}
+.service-item h3{
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.service-item p{
+  }
+
+.service-item a{
+  border: 1px;
+  border-radius: 3px;
+  padding: 19px 40px 19px 40px;
+  background-color: rgb(251,86,90);
+  margin: 38px 38px 38px 38px;
+  color: rgb(255,255,255);
+  display: block;
+  width: 160px;
+}
+.service-item .button-green{
+  background-color: rgb(0,202,116);
+}
+.service-item .button-yellow{
+  background-color: rgb(239,200,74);
+}
+.button-red:hover,
+.button-red:focus{
+  background-color: rgb(231,66,70);
+}
+.button-green:hover,
+.button-green:focus{
+  background-color: rgb(0,188,108);
+}
+.button-yellow:hover,
+.button-yellow:focus{
+  background-color: rgb(234,181,52);
+}
+.social-list{
+  list-style: none;
+}
+.social-list a{
+  color: rgb(0,0,0);
+}
+.conclusion-friends{
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+}
+.conclusion-sale{
+  line-height: 22px;
+}
+.page-title{
+  font-size: 55px;
+  line-height: 55px;
+  text-align: center;
+  margin: 0px;
+  background-color: rgb(238,238,238);
+}
+.filter fieldset{
+  border: none;
+}
+.filter h3{
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.filter-grid input[type="radio"]{
+  font: inherit;
+  color: rgb(97.104.108);
+}
+.filter-specificity input{
+  font: inherit;
+  color: rgb(97.104.108);
+}
+.filter-button{
+  border: none;
+  background-color: rgb(238,238,238);
+}
+.filter-button button:hover,
+.filter-button button:focus{
+  background-color: rgb(223,223,223);
+}
+.filter-view{
+  list-style: none;
+}
+.filter-view a{
+  color: rgb(97,104,108);
+}
+.catalog-list{
+  list-style: none;
+}
