@@ -25,43 +25,50 @@
  </nav>
 </header>
 <main class="container">
-<h1 class="page-title">Магазин готовых шаблонов</h1>
-<section class="filter">
-  <form class="filter-form" method="get" action="">
-    <h2 class="visually-hidden">Фильтры</h2>
-    <fieldset class="filter-grid">
-      <h3 class="grid-title">Сетка:</h3>
-      <label><input type="radio" name="grid" value="Адаптивная" checked>Адаптивная</label>
-      <label><input type="radio" name="grid" value="Фиксированная">Фиксированая</label>
-      <label><input type="radio" name="grid" value="Резиновая">Резиновая</label>
-    </fieldset>
-    <fieldset class="filter-specificity">
-      <h3 class="specificity-filter">Особенности:</h3>
-      <label><input type="checkbox" name="slider" checked>Слайдер</label>
-      <label><input type="checkbox" name="advantage">Блок преимуществ</label>
-      <label><input type="checkbox" name="news" checked>Новости</label>
-      <label><input type="checkbox" name="gallery">Галерея</label>
-      <label><input type="checkbox" name="basket">Корзина</label>
-    </fieldset>
-      <button class="filter-button" type="submit">показать</button>
-    </form>
-  <h3>Сортировать</h3>
-  <ul class="filter-view">
-    <li><a href="#">по цене</a></li>
-    <li><a href="#">по типу</a></li>
-    <li><a href="#">по названию</a></li>
-  </ul>
-</section>
-<section class="catalog">
-  <ul class="catalog-list">
-    <li><img src="img/catalog/img-sedona.jpg.jpg" width="360" height="576" alt="картинка седоны" ></li>
-    <li><img src="img/catalog/img-pink.jpg.jpg" width="360" height="576" alt="картинка pink"></li>
-    <li><img src="img/catalog/img-barbershop.jpg.jpg" width="360" height="576" alt="картинка borodinski"></li>
-    <li><img src="img/catalog/img-mishka.jpg.jpg" width="360" height="576" alt="картинка mishka"></li>
-    <li><img src="img/catalog/img-aplus.jpg.jpg" width="360" height="576" alt="картинка учеба"></li>
-    <li><img src="img/catalog/img-kvast.jpg.jpg" width="360" height="576" alt="картинка квест"></li>
-  </ul>
-</section>
+  <div class="catalog-center">
+    <h1 class="page-title">Магазин готовых шаблонов</h1>
+    <div class="row">
+      <section class="filter">
+          <form class="filter-form" method="get" action="">
+                <h2 class="visually-hidden">Фильтры</h2>
+                    <fieldset class="filter-grid">
+                      <h3 class="grid-title">Сетка:</h3>
+                      <label><input type="radio" name="grid" value="Адаптивная" checked>Адаптивная</label>
+                      <label><input type="radio" name="grid" value="Фиксированная">Фиксированая</label>
+                      <label><input type="radio" name="grid" value="Резиновая">Резиновая</label>
+                    </fieldset>
+                    <fieldset class="filter-specificity">
+                      <h3 class="specificity-filter">Особенности:</h3>
+                      <label><input type="checkbox" name="slider" checked>Слайдер</label>
+                      <label><input type="checkbox" name="advantage">Блок преимуществ</label>
+                      <label><input type="checkbox" name="news" checked>Новости</label>
+                      <label><input type="checkbox" name="gallery">Галерея</label>
+                      <label><input type="checkbox" name="basket">Корзина</label>
+                    </fieldset>
+                    <button class="filter-button" type="submit">показать</button>
+          </form>
+      </section>
+      <section class="catalog">
+        <h2 class="visually-hidden">Каталог</h2>
+        <div class="catalog-filter">
+          <h3>Сортировать</h3>
+          <ul class="filter-view">
+            <li><a href="#">по цене</a></li>
+            <li><a href="#">по типу</a></li>
+            <li><a href="#">по названию</a></li>
+          </ul>
+        </div>
+        <ul class="catalog-list">
+          <li><img src="img/catalog/img-sedona.jpg.jpg" width="360" height="576" alt="картинка седоны" ></li>
+          <li><img src="img/catalog/img-pink.jpg.jpg" width="360" height="576" alt="картинка pink"></li>
+          <li><img src="img/catalog/img-barbershop.jpg.jpg" width="360" height="576" alt="картинка borodinski"></li>
+          <li><img src="img/catalog/img-mishka.jpg.jpg" width="360" height="576" alt="картинка mishka"></li>
+          <li><img src="img/catalog/img-aplus.jpg.jpg" width="360" height="576" alt="картинка учеба"></li>
+          <li><img src="img/catalog/img-kvast.jpg.jpg" width="360" height="576" alt="картинка квест"></li>
+        </ul>
+      </section>
+    </div>
+  </div>
 </main>
 <footer class="main-footer">
   <div class="footer-social">

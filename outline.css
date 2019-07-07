@@ -1,0 +1,96 @@
+/* сеточные стили */
+html,
+body {
+  min-width: 1122px;
+  min-height: 1750px;
+}
+/* временно для сетки */
+body {
+    background-image: url('img/nerds-index.jpg');
+    background-size: 1372px auto;
+    background-repeat: no-repeat;
+}
+.main-header{
+    background-color: rgba(255,0,0,0.3);
+    width: 1200px;
+    min-height: 110px;
+    padding: 0 20px;
+    margin: 0px;
+    display: flex; 
+    justify-content: center
+}
+.container{
+    background-color: rgba(0,0,255,0.3);
+    width: 1200px;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+.main-header-logo{
+    width: 160px;
+    background-color: rgba(255,255,0,0.3);
+}
+.main-navigation{
+    width: 860px;
+    background-color: rgba(255,0,255,0.3);
+    padding-left:60px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.site-navigation{
+    list-style: none;
+    width: 440px;
+    margin: 0;
+    background-color: rgba(255,155,0,0.3);
+}
+.basket{
+    width: 160px;
+    background-color: rgb(255, 255, 0.8);
+}
+main{
+    display: none;
+}
+.service{
+    width: 100%;
+    display: flex;
+}
+.service-list{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(43, 255, 0, 0.432);
+}
+.service-item{
+    background-color: rgba(248, 14, 14, 0.76);
+    width: 300px;
+    min-height: 30px;
+}
+.main-footer{
+    width:1200px;
+    padding:0 20px;
+    display: flex;
+    background-color: rgba(255, 255, 0, 0.973);
+    justify-content: space-around;
+}
+.social-list{
+    margin: 0;
+    padding: 0px;
+    background-color: rgba(0,0,255,0.3);
+    width:300px;
+    min-height: 30px;
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+}
+.social-list li{
+
+}
+.footer-conclusion{
+    width: 560px;
+    min-height: 30px;
+    background-color:rgba(248, 14, 14, 0.76)
+}
